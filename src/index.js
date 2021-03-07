@@ -23,7 +23,7 @@ class App extends Component {
   render(){
     return (
         <Fragment>
-      <Canvas>
+      <Canvas >
         <ambientLight />
         <directionalLight intensity={1} />
         <ambientLight intensity={0.2} />
